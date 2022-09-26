@@ -1,0 +1,54 @@
+.cart-box{
+
+}
+.item{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40rpx;
+}
+.item-b image{
+  width: 200rpx;
+  height: 200rpx;
+}
+.item-c .bottom{
+  width: 100rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100rpx;
+}
+.item-d{
+  width: 140rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.item-d .price{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80rpx;
+  color: #f00;
+}
+.item-d .del{
+  width: 100rpx;
+  height: 60rpx;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40rpx;
+}
+.allCheck{
+  position: fixed;
+  bottom: 0;
+  width: 670rpx;
+  height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8d0fff;
+  color: #ffffff;
+  padding: 0 40rpx;
+}
